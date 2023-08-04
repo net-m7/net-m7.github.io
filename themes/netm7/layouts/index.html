@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="container-fluid text-center">
+    <div class="row splash">
+      <div class="col">
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Site.Params.Subtitle }}</h2>
+        <a href="#sign" class="button">Подписать петицию</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col green-section">
+        {{ with .Site.GetPage "section" "undersplash" }}
+          {{ .Content }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row white-section">
+        <div class="col-xl">
+          <iframe allowfullscreen="true" frameborder="1" height="600" width="500" src="https://yandex.ru/map-widget/v1/?ll=30.351876%2C60.008515&amp;mode=usermaps&amp;source=constructorLink&amp;um=constructor%3A60da5186e54d0290d6b9bf603877156a3575d7a946fe42a8cbb3324419d23b5d&amp;z=11.44" style="position:relative;" width="560"></iframe>
+        </div>
+        <div class="col-xl">
+          {{ with .Site.GetPage "section" "mapsection" }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+    </div>
+
+    <div class="row green-section">
+      <div class="col">
+        {{ with .Site.GetPage "section" "slogan" }}
+          {{ .Content }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row white-section">
+      <div id="sign" class="col p-left">
+        {{ with .Site.GetPage "section" "where" }}
+          {{ .Content }}
+        {{ end }}
+        <a href="#where-sign-map">Посмотреть на карте, где можно подписать петицию</a>
+        <br /><br />
+        <div id="where-sign-map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?bookmarks%5BpublicId%5D=RatCxfLq&utm_source=share&utm_campaign=bookmarks" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?bookmarks%5BpublicId%5D=RatCxfLq&ll=30.307990%2C59.975984&mode=bookmarks&utm_campaign=bookmarks&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">«Подпись петиции против трассы М-7» — автор списка Christina_Chepurina — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?bookmarks%5BpublicId%5D=RatCxfLq&ll=30.307990%2C59.975984&mode=bookmarks&utm_campaign=bookmarks&utm_source=share&z=12" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      </div>
+    </div>
+</div>
+{{- end }}

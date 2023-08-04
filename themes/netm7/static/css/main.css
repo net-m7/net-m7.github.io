@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Zen Maru Gothic";
+    src: local("Zen Maru Gothic"), url(/fonts/ZenMaruGothic-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Zen Maru Gothic";
+    src: local("Zen Maru Gothic"), url(/fonts/ZenMaruGothic-Medium.ttf) format("truetype");
+    font-weight: bold;
+  }
+
+body {
+    font-family: "Zen Maru Gothic",  sans-serif;
+}
+
+.bg {
+    background-color: red;
+}
+
+.p-left p {
+    text-align: left;
+}
+
+.splash {
+    background: url("/img/splash.jpg") no-repeat;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 600px;
+    padding-top: 140px;
+    color: #fff;
+    overflow: visible;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.splash h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.splash h2 {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.splash a {
+    margin-top: 50px;
+}
+
+.button {
+    font-weight: bold;
+    background-color: #DEF1DE;
+    border: 15px solid #DEF1DE;
+    border-top-width: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #195E2C;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 29px;
+    padding: 0 25px 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    min-height: 35px;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: #abe3ab;
+    border: 15px solid #abe3ab;
+    border-top-width: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.white-section {
+    color: #10441E;
+    font-size: 1.5em;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.white-section h1 {
+    margin-bottom: 30px;
+}
+
+.white-section a {
+    color: #4E74A9;
+    border-bottom: 1px dashed;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.white-section a:hover {
+    color: #4E74A9;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.green-section {
+    color: #10441E;
+    font-size: 1.5em;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: #DEF1DE;
+}
+
+#where-sign-map {
+    display: none;
+}
+
+#where-sign-map:target {
+    display: block;
+}
+
+.footer {
+    font-size:0.8em;
+}
+
+.footer a {
+    font-size:0.8em;
+    color: #10441E;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+

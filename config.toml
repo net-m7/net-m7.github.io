@@ -1,0 +1,8 @@
+baseURL = 'https://net-m7.ru/'
+languageCode = 'ru'
+title = 'Нет трассе М-7'
+theme = 'netm7'
+enableRobotsTXT = true
+
+[params]
+  Subtitle = 'Помогите защитить наш город'
