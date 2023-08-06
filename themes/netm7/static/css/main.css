@@ -28,6 +28,15 @@ hr {
     text-align: left;
 }
 
+.margin-bot {
+    margin-bottom: 3em;
+}
+
+.cap-text {
+    color: #10441E;
+    font-size: 1.5em;
+}
+
 .splash {
     background: url("/img/splash.jpg") no-repeat;
     background-repeat:no-repeat;
@@ -175,6 +184,7 @@ hr {
 
 .white-section h1 {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .link {
@@ -190,6 +200,14 @@ hr {
     border-bottom: 1px solid;
     transition: all 0.2s ease;
     text-decoration: none;
+}
+
+.green-link a {
+    color: #10441E;
+}
+
+.green-link a:visited {
+    color: #082710;
 }
 
 .green-section {
