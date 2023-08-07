@@ -14,6 +14,10 @@ body {
     font-size:100%;
 }
 
+a {
+    color: #4E74A9;
+}
+
 .bg {
     background-color: red;
 }
@@ -217,6 +221,14 @@ hr {
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: #DEF1DE;
+}
+
+#flyer {
+    display: none;
+}
+
+#flyer:target {
+    display: block;
 }
 
 #where-sign-map {
