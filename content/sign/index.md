@@ -58,7 +58,7 @@
 
 <div class="col-sm-11 col-md-6 col-xxl-6">
 <img style="width:100%;" src="/img/example-list.png" />
-<i class="gray-i">Пример правильно заполенного листа</i>
+<i class="gray-i">Пример правильно заполненного листа</i>
  </div>
 </div>
 {{< /rawhtml >}}
