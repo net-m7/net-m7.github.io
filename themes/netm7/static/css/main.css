@@ -105,14 +105,14 @@ hr {
     border-bottom: 0px;
     font-weight: bold;
     background-color: #1777FF;
-    border: 15px solid #1777FF;
-    border-top-width: 10px;
+    border: 10px solid #1777FF;
+    border-top-width: 5px;
     border-radius: 30px;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-size: 25px;
+    font-size: 0.8em;
     line-height: 29px;
     padding: 0 25px 0 25px;
     position: relative;
@@ -128,8 +128,8 @@ hr {
 
 .blue-button:hover {
     background-color: #1463d1;
-    border: 15px solid #1463d1;
-    border-top-width: 10px;
+    border: 10px solid #1463d1;
+    border-top-width: 5px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -143,14 +143,14 @@ hr {
     border-bottom: 0px;
     font-weight: bold;
     background-color: #E0192B;
-    border: 15px solid #E0192B;
-    border-top-width: 10px;
+    border: 10px solid #E0192B;
+    border-top-width: 5px;
     border-radius: 30px;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-size: 25px;
+    font-size: 0.8em;
     line-height: 29px;
     padding: 0 25px 0 25px;
     position: relative;
@@ -166,8 +166,8 @@ hr {
 
 .red-button:hover {
     background-color: #c21624;
-    border: 15px solid #c21624;
-    border-top-width: 10px;
+    border: 10px solid #c21624;
+    border-top-width: 5px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -184,8 +184,8 @@ hr {
 }
 
 .white-section h1 {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .link {
@@ -203,11 +203,11 @@ hr {
     text-decoration: none;
 }
 
-.green-link a {
-    color: #10441E;
+.green-link {
+    color: #366790;
 }
 
-.green-link a:visited {
+.green-link {
     color: #082710;
 }
 
@@ -238,4 +238,9 @@ hr {
     border-bottom: 1px solid;
     transition: all 0.2s ease;
     text-decoration: none;
+}
+
+.gray-i {
+    font-size: 0.9em;
+    color: gray;
 }

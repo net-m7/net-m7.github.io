@@ -9,7 +9,7 @@
     </div>
 
     <div class="row justify-content-center white-section">
-      <div class="col-sm-11 col-md-10">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
         {{ with .Site.GetPage "section" "undersplash" }}
           {{ .Content }}
         {{ end }}
@@ -17,7 +17,7 @@
     </div>
 
     <div class="row justify-content-center green-section">
-      <div class="col-sm-11 col-md-10">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
         {{ with .Site.GetPage "section" "undersplashtext" }}
           {{ .Content }}
         {{ end }}
@@ -25,37 +25,39 @@
     </div>
 
     <div class="row justify-content-center white-section">
-        <div class="col-sm-11 col-md-5">
+        <div class="col-sm-11 col-md-5 col-xxl-4">
           <iframe allowfullscreen="true" frameborder="1" height="600" width="100%" src="https://yandex.ru/map-widget/v1/?ll=30.351876%2C60.008515&amp;mode=usermaps&amp;source=constructorLink&amp;um=constructor%3A60da5186e54d0290d6b9bf603877156a3575d7a946fe42a8cbb3324419d23b5d&amp;z=11.44" style="position:relative;" width="560"></iframe>
         </div>
-        <div class="col-sm-11 col-md-5">
+        <div class="col-sm-11 col-md-5 col-xxl-4 p-left">
           {{ with .Site.GetPage "section" "mapsection" }}
             {{ .Content }}
           {{ end }}
         </div>
     </div>
    
-    <div class="row justify-content-center cap-text margin-bot">
-      <div class="col-sm-11 col-md-10 margin-bot">
+    <div class="row justify-content-center cap-text">
+      <div class="col-sm-11 col-md-10 col-xxl-9 margin-bot">
         <hr />
         Списки районов, улиц, домов, парков и скверов, на которые повлияет трасса:
       </div>
-      <div class="col-sm-11 col-md-3  margin-bot green-link">
-        <a href="/Список-инфраструктуры-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
-        объекты инфраструктуры</a>
+    </div>
+    <div class="row justify-content-center cap-text margin-bot">
+      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot">
+        <a class="green-link" target="_blank" href="/Список-инфраструктуры-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
+        Объекты инфраструктуры</a>
       </div>
-      <div class="col-sm-11 col-md-3  margin-bot green-link">
-        <a href="/Список-жилых-домов-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
-        жилые дома</a>
+      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot">
+        <a class="green-link" target="_blank" href="/Список-жилых-домов-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
+        Жилые дома</a>
       </div>
-      <div class="col-sm-11 col-md-3  margin-bot green-link">
-        <a href="/Список-памятников-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
-        памятники</a>
+      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot ">
+        <a class="green-link" target="_blank" href="/Список-памятников-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
+        Памятники</a>
       </div>
     </div>
 
     <div id="sign" class="row justify-content-center green-section">
-      <div class="col-sm-11 col-md-10">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
         {{ with .Site.GetPage "section" "slogan" }}
           {{ .Content }}
         {{ end }}
@@ -63,24 +65,46 @@
     </div>
 
     <div class="row justify-content-center white-section">
-      <div class="col-sm-11 col-md-10 p-left">
+      <div class="col-sm-11 col-md-10 col-xxl-8 p-left">
         {{ with .Site.GetPage "section" "sign" }}
           {{ .Content }}
         {{ end }}
-        <br />
-        <a href="#where-sign-map" class="link">Посмотреть на карте, где можно подписать петицию</a>
-        <br /><br />
-        <iframe id="where-sign-map"  src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae0ce7a8fdf81bcc525b415b0249e2ce0966b6175aa18502dff99e07a29d9d486&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
-        <hr />
-    </div>
+      </div>
     
-    <div class="row justify-content-center">
-      <div style="padding-top: 20px;" class="col-sm-11 col-md-4">Если вы не можете подписать петицию 
+    <div class="row justify-content-center ">
+      <div style="padding-bottom: 70px; padding-top: 20px;" class="col-sm-11 col-md-4">Если вы не можете подписать петицию 
         лично, сделайте это онлайн:</div>
       <div class="col-sm-11 col-md-4 white">
         <a href="https://vk.com/petition#p=82336" class="blue-button">Подписать петицию во ВКонтакте</a>
         <a href="https://www.change.org/p/%D0%BD%D0%B5%D1%82-%D0%BF%D1%80%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D0%BA%D0%B5-%D1%82%D1%80%D0%B0%D1%81%D1%81%D1%8B-%D0%BC-7-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%83%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B0%D1%80%D0%BA-%D0%BF%D0%BE-%D0%BF%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%BC%D1%83-%D0%B8-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B3%D1%81%D0%BA%D0%BE%D0%BC%D1%83-%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0%D0%BC?recruiter=528314348&recruited_by_id=a867d0f0-04b0-11e6-93a0-350d7169e5e8&utm_source=share_petition&utm_campaign=share_petition&utm_term=1556505a6dbe4025a8cfd430cc8138f2&utm_medium=whatsapp&utm_content=washarecopy_36563466_ru-RU%3A0" class="red-button">Подписать петицию на Change.org</a>
       </div>
     </div>
+    </div>
+
+
+    <div id="sign" class="row justify-content-center green-section">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
+        {{ with .Site.GetPage "section" "slogan-share" }}
+          {{ .Content }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row justify-content-center white-section">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
+        {{ with .Site.GetPage "section" "share" }}
+          {{ .Content }}
+        {{ end }}
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center white-section">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
+        <h2>Спасибо</h2><img width="50px" src="/img/hands.png" />
+      </div>
+    </div>
+
+
 </div>
 {{- end }}
