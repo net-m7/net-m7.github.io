@@ -4,7 +4,8 @@
       <div class="col">
         <h1>{{ .Title }}</h1>
         <h2>{{ .Site.Params.Subtitle }}</h2>
-        <a href="#sign" class="button">Подписать петицию</a>
+        <a href="#sign" class="button">Оставить подпись</a><br /><br /><br />
+        <a href="#map" class="white-link">Карта трассы</a>
       </div>
     </div>
 
@@ -14,26 +15,18 @@
           {{ .Content }}
         {{ end }}
       </div>
-    </div>
 
-    <div class="row justify-content-center green-section">
+      <div id="map" class="col-sm-11 col-md-10 col-xxl-8">
+        <br />
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aef914062ace4995495fc091da76da64322a1339c1e98d7b49bda2b5bae0c0019&amp;width=100%&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
       <div class="col-sm-11 col-md-10 col-xxl-8">
-        {{ with .Site.GetPage "section" "undersplashtext" }}
-          {{ .Content }}
-        {{ end }}
+        <br />
+        <a target="_blank" href="https://www.youtube.com/watch?v=Dddjp3uwprg">Посмотреть 3D-визуализацию</a>
       </div>
     </div>
 
-    <div class="row justify-content-center white-section">
-        <div class="col-sm-11 col-md-5 col-xxl-4">
-          <iframe allowfullscreen="true" frameborder="1" height="600" width="100%" src="https://yandex.ru/map-widget/v1/?ll=30.351876%2C60.008515&amp;mode=usermaps&amp;source=constructorLink&amp;um=constructor%3A60da5186e54d0290d6b9bf603877156a3575d7a946fe42a8cbb3324419d23b5d&amp;z=11.44" style="position:relative;" width="560"></iframe>
-        </div>
-        <div class="col-sm-11 col-md-5 col-xxl-4 p-left">
-          {{ with .Site.GetPage "section" "mapsection" }}
-            {{ .Content }}
-          {{ end }}
-        </div>
-    </div>
+
    
     <div class="row justify-content-center cap-text">
       <div class="col-sm-11 col-md-10 col-xxl-9 margin-bot">
@@ -42,17 +35,39 @@
       </div>
     </div>
     <div class="row justify-content-center cap-text margin-bot">
-      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot">
+      <div class="col-sm-11 col-md-2 col-xxl-2 margin-bot">
         <a class="green-link" target="_blank" href="/Список-инфраструктуры-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
         Объекты инфраструктуры</a>
       </div>
-      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot">
+      <div class="col-sm-11 col-md-2 col-xxl-2 margin-bot">
         <a class="green-link" target="_blank" href="/Список-жилых-домов-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
         Жилые дома</a>
       </div>
-      <div class="col-sm-11 col-md-3 col-xxl-2 margin-bot ">
+      <div class="col-sm-11 col-md-2 col-xxl-2 margin-bot ">
         <a class="green-link" target="_blank" href="/Список-памятников-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
         Памятники</a>
+      </div>
+      <div class="col-sm-11 col-md-2 col-xxl-2 margin-bot ">
+        <a class="green-link" target="_blank" href="/Список-парков-М7.pdf"><img style="width: 3.5em;" src="/img/documents.png" /><br />
+        Парки</a>
+      </div>
+    </div>
+
+
+
+    <div class="row justify-content-center green-section">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
+        {{ with .Site.GetPage "section" "slogan-why" }}
+          {{ .Content }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row justify-content-center white-section text-left">
+      <div class="col-sm-11 col-md-10 col-xxl-8">
+        {{ with .Site.GetPage "section" "why" }}
+          {{ .Content }}
+        {{ end }}
       </div>
     </div>
 
@@ -101,7 +116,7 @@
 
     <div class="row justify-content-center white-section">
       <div class="col-sm-11 col-md-10 col-xxl-8">
-        <h2>Спасибо</h2><img width="50px" src="/img/hands.png" />
+        <h2>Спасибо, что помогаете защитить наш город</h2><img width="50px" src="/img/hands.png" />
       </div>
     </div>
 

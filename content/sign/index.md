@@ -37,7 +37,7 @@
         <br />
         <a href="#where-sign-map" class="link">Посмотреть на карте, где можно подписать петицию</a>
         <br /><br />
-        <iframe id="where-sign-map"  src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae0ce7a8fdf81bcc525b415b0249e2ce0966b6175aa18502dff99e07a29d9d486&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        <div id="where-sign-map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae0ce7a8fdf81bcc525b415b0249e2ce0966b6175aa18502dff99e07a29d9d486&amp;width=100%&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script></div>
         <hr />
 {{< /rawhtml >}}
 
@@ -51,7 +51,7 @@
 
 <p>Каждый человек должен <b>самостоятельно, своей рукой,</b> заполнить поля ФИО, адрес, телефон и поставить подпись.</p>
 <br />
-<a class="green-link" href="/Подписной-лист-М7.pdf"><img style="margin-right:10px;width: 1.5em;" src="/img/documents.png" />Скачать подписной лист</a>
+<a href="/Подписной-лист-М7.pdf"><img style="margin-right:10px;width: 1.5em;" src="/img/documents.png" />Скачать подписной лист</a>
 <br /><br />
 </div>
 

@@ -17,6 +17,9 @@ body {
 a {
     color: #4E74A9;
 }
+.h3 {
+    margin-top: 25px;
+}
 
 .bg {
     background-color: red;
@@ -29,6 +32,10 @@ hr {
 }
 
 .p-left p {
+    text-align: left;
+}
+
+.text-left {
     text-align: left;
 }
 
@@ -46,8 +53,8 @@ hr {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    min-height: 700px;
-    padding-top: 170px;
+    min-height: 600px;
+    padding-top: 100px;
     padding-bottom: 30px;
     color: #fff;
     overflow: visible;
@@ -202,6 +209,22 @@ hr {
 
 .link a:hover {
     color: #4E74A9;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.white-link {
+    color: #ffffff;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    text-align: center;
+    font-size:1.4em;
+}
+
+.white-link a:hover {
+    color: #ffffff;
     border-bottom: 1px solid;
     transition: all 0.2s ease;
     text-decoration: none;
