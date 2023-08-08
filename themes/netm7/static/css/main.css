@@ -215,6 +215,21 @@ hr {
     text-decoration: none;
 }
 
+.link-solid {
+    color: #4E74A9;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-solid a:hover {
+    color: #4E74A9;
+    border-bottom: 1px solid;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
 .white-link {
     color: #ffffff;
     border-bottom: 1px solid;
@@ -279,4 +294,14 @@ hr {
 .gray-i {
     font-size: 0.9em;
     color: gray;
+}
+
+.post-content {
+    font-size: 1.5em;
+    margin-bottom: 3em;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
 }
